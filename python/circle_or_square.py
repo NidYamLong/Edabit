@@ -11,7 +11,7 @@
 from math import pi as PI
 from math import sqrt
 
-def circle_or_square(rad, area):
+def circle_or_square(rad, area) -> bool:
     circum = 2 * PI * rad
     perim = sqrt(area) * 4
 
